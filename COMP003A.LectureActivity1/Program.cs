@@ -14,6 +14,12 @@ namespace COMP003A.LectureActivity1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hi \nMy name is Jason Salinas,");
+
+            Console.WriteLine("Enter your name: ");
+            string username = Console.ReadLine();
+
+            Console.WriteLine("Hi " + username + ", My name is PC.");
         }
     }
 }
